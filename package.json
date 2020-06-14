@@ -1,0 +1,55 @@
+{
+  "name": "gulp-jsj",
+  "version": "0.1.0",
+  "description": "gulp 的 相同",
+  "keywords": [
+    "gulp-jsj",
+    "zce"
+  ],
+  "homepage": "https://github.com/zce/gulp-jsj#readme",
+  "bugs": {
+    "url": "https://github.com/zce/gulp-jsj/issues"
+  },
+  "license": "MIT",
+  "author": "cloveryuan <750363796@qq.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/gulp-jsj.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^4.0.1"
+  
+  },
+  "devDependencies": {
+    "ava": "^2.2.0",
+    "standard": "^13.1.0"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
